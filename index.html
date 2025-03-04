@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -9,115 +9,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AMATORY</title>
   <link rel="stylesheet" href="css/style.css">
-  <!--aca esoy linkeando con css. pero accediendo a la carpeta css antes del archivo-->
 </head>
 
 <body>
-  <header class="cabecera">
-    <img src="assets/img/thumb-1920-233869.jpg" alt="icon">
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="pages/galeria.html">Galería</a></li>
-        <li><a href="pages/contactos.html">Contactos</a></li>
-        <li><a href="pages/informacion.html">Información</a></li>
-        <li><a href="pages/conciertos.html">Conciertos</a></li>
-      </ul>
-    </nav>
-  </header>
-  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="assets/img/thumb-1920-233869.jpg" alt="icon" width="10%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars text-light mt-4"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contactos.html">Contactos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/informacion.html">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/conciertos.html">Conciertos</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
 
-    
-    
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="assets/img/amatory-new-year.jpeg" class="d-block w-100 c-img" alt="img">
+    <div id="carouselExampleIndicators" class="carousel slide mb-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-item c-item">
-          <img src="assets/img/1684225704535_renamed.jpg" class="d-block w-100 c-img" alt="img">
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="assets/img/amatory-new-year.jpeg" class="d-block w-100 c-img" alt="img">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="assets/img/1684225704535_renamed.jpg" class="d-block w-100 c-img" alt="img">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="assets/img/img2220100420_003.jpg" class="d-block w-100 c-img" alt="img">
+            </div>
         </div>
-        <div class="carousel-item c-item">
-          <img src="assets/img/img2220100420_003.jpg" class="d-block w-100 c-img" alt="img">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 
-    <main class="containe">
-
-    
+    <main class="container">
       <section id="inicio">
-        
-        <h1> Ahora hablaremos sobre la banda rusa AMATORY</h1>
-        <p>AMATORY es una banda de metalcore originaria de San Petersburgo, Rusia, y una de las más influyentes en la
-          escena del metal ruso. Fundada en 1998, ha evolucionado a lo largo de los años, consolidándose como un ícono
-          en su género. AMATORY comenzó como un proyecto de amigos apasionados por el metal alternativo, mezclando
-          elementos de nu metal y groove metal. Durante este tiempo, trabajaron en sus primeras canciones y se enfocaron
-          en construir una base sólida en la escena underground rusa.
-        </p>
-        <p>En 2001 lanzaron su primer álbum, pero fue con "Неизбежность" (Inevitable) en 2003 y especialmente con
-          "Чёрно-Белые Сны" (Sueños en Blanco y Negro) en 2004 que la banda alcanzó gran notoriedad. Estas producciones
-          definieron su estilo, combinando riffs pesados, letras melancólicas y arreglos melódicos, logrando resonar con
-          una audiencia joven.
-
-          El álbum "Чёрно-Белые Сны" contenía canciones icónicas como "Осколки" (Fragmentos), que se convirtió en uno de
-          sus mayores éxitos. Durante este periodo, comenzaron a ganar premios y realizaron giras extensas por Rusia y
-          Europa del Este, consolidando su posición en la escena del metal.</p>
-
-
-          <p>A medida que crecían, enfrentaron cambios importantes en su alineación. Algunos de los miembros originales dejaron la banda, y esto afectó su sonido. Sin embargo, con el álbum "VII", lanzado en 2008, demostraron que podían evolucionar musicalmente. Este disco presentó un estilo más maduro y experimental, mezclando elementos electrónicos con su característico metalcore.</p>
-          <p> En 2010, la banda enfrentó una tragedia con el fallecimiento de su bajista y vocalista, Denis Zakharov (mejor conocido como JASON). Este evento fue un golpe devastador, pero el grupo decidió seguir adelante en su memoria. Durante esta etapa, lanzaron versiones regrabadas de sus clásicos y nuevos materiales que reflejaban un tono más introspectivo y emocional.
-
-            El aniversario de su canción "Осколки" en 2011 marcó un momento especial, pues presentaron una versión renovada llamada "Осколки 2.011", homenajeando sus raíces.Después de una pausa en sus actividades, AMATORY regresó con fuerza en 2015 para celebrar su legado y reconectarse con sus fans. Lanzaron nueva música que mezcla la agresividad de su trabajo inicial con la madurez adquirida a lo largo de los años. También han participado en festivales importantes y giras, reafirmando su lugar en la escena.
-            
-            </p>
+        <div class="row">
+            <div class="col-12">
+                <h1> Ahora hablaremos sobre la banda rusa AMATORY</h1>
+            </div>
+            <div class="col-12">
+                <p>AMATORY es una banda de metalcore originaria de San Petersburgo, Rusia, y una de las más influyentes en la
+                    escena del metal ruso. Fundada en 1998, ha evolucionado a lo largo de los años, consolidándose como un ícono
+                    en su género. AMATORY comenzó como un proyecto de amigos apasionados por el metal alternativo, mezclando
+                    elementos de nu metal y groove metal. Durante este tiempo, trabajaron en sus primeras canciones y se enfocaron
+                    en construir una base sólida en la escena underground rusa.
+                  </p>
+                  <p>En 2001 lanzaron su primer álbum, pero fue con "Неизбежность" (Inevitable) en 2003 y especialmente con
+                    "Чёрно-Белые Сны" (Sueños en Blanco y Negro) en 2004 que la banda alcanzó gran notoriedad. Estas producciones
+                    definieron su estilo, combinando riffs pesados, letras melancólicas y arreglos melódicos, logrando resonar con
+                    una audiencia joven.
+          
+                    El álbum "Чёрно-Белые Сны" contenía canciones icónicas como "Осколки" (Fragmentos), que se convirtió en uno de
+                    sus mayores éxitos. Durante este periodo, comenzaron a ganar premios y realizaron giras extensas por Rusia y
+                    Europa del Este, consolidando su posición en la escena del metal.</p>
+          
+          
+                    <p>A medida que crecían, enfrentaron cambios importantes en su alineación. Algunos de los miembros originales dejaron la banda, y esto afectó su sonido. Sin embargo, con el álbum "VII", lanzado en 2008, demostraron que podían evolucionar musicalmente. Este disco presentó un estilo más maduro y experimental, mezclando elementos electrónicos con su característico metalcore.</p>
+                    <p> En 2010, la banda enfrentó una tragedia con el fallecimiento de su bajista y vocalista, Denis Zakharov (mejor conocido como JASON). Este evento fue un golpe devastador, pero el grupo decidió seguir adelante en su memoria. Durante esta etapa, lanzaron versiones regrabadas de sus clásicos y nuevos materiales que reflejaban un tono más introspectivo y emocional.
+          
+                      El aniversario de su canción "Осколки" en 2011 marcó un momento especial, pues presentaron una versión renovada llamada "Осколки 2.011", homenajeando sus raíces.Después de una pausa en sus actividades, AMATORY regresó con fuerza en 2015 para celebrar su legado y reconectarse con sus fans. Lanzaron nueva música que mezcla la agresividad de su trabajo inicial con la madurez 
+                      adquirida a lo largo de los años. También han participado en festivales importantes y giras, reafirmando su lugar en la escena.  
+                    </p>
+            </div>
+            <div class="col-12 pt-5 pb-5 text-center">
+                <img class="img-fluid" src="assets/img/Amatory logo icono.png" alt="icon">
+            </div>
+        </div>
       </section>
     </main>
 
-
-    <section id="inicio">
-      <img class="img-inicio" src="assets/img/Amatory logo icono.png" alt="icon">
-    </section>
-
-      <footer class="footer">
-
-       
-          <h1>Contenidos</h1>
-
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pages/galeria.html">Galería</a></li>
-            <li><a href="pages/contactos.html">Contactos</a></li>
-            <li><a href="pages/informacion.html">Información</a></li>
-            <li><a href="pages/conciertos.html">Conciertos</a></li>
-          </ul>
-
-        <h3> Necesita ayuda?</h3>
-       <h3>&copy; La página web ha sido creada para la entrega de el curso de CoderHouse; Desarrollo web </h3>
-        
-        <ul class="social-links">
-        
-          <a href="https://www.behance.net/natzav" target="_blank" />
-            <i class="fa-brands fa-behance" ></i></i>
-
-
-        </ul>
-
-      </footer>
+    <footer class="footer text-center">
+      <div class="container py-5">
+          <div class="row">
+              <div class="col-12 mb-4">
+                  <h3 class="text-light">Contenidos</h3>
+                  <ul class="social-links">
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="pages/galeria.html">Galería</a></li>
+                      <li><a href="pages/contactos.html">Contactos</a></li>
+                      <li><a href="pages/informacion.html">Información</a></li>
+                      <li><a href="pages/conciertos.html">Conciertos</a></li>
+                  </ul>
+              </div>
+              <div class="col-12 mb-4">
+                  <h4 class="text-light">Necesita ayuda?</h4>
+                  <h4 class="text-light">&copy; La página web ha sido creada para la entrega de el curso de CoderHouse; Desarrollo web </h4>
+              </div>
+              <div class="col-12">
+                  <ul class="social-links">
+                      <a class="text-light" href="https://www.behance.net/natzav" target="_blank" />
+                          <i class="fa-brands fa-behance" ></i>
+                      </a>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
    
 </body>
 
