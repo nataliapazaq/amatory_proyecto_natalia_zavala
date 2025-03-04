@@ -1,0 +1,226 @@
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #130A0B !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+#inicio {
+  background-color: #000000;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 30px;
+}
+
+
+.c-item {
+  height: 500px;
+  
+  /* Espacio entre los elementos */
+}
+
+
+.c-img {
+height: 150%;
+object-fit:cover ;
+}
+
+.img-inicio {
+  width: 30%;
+  margin: auto;
+  object-fit: cover;
+  /* Ajustar la imagen al tamaño del elemento */
+  border-radius: 8px;
+  /* Redondear el círculo */
+}
+
+p {
+  color: #ffffff;
+  text-align: left;
+  font-size: larger;
+  font-family:inherit;
+  margin: 25px;
+  /* Cambia el código de color por el que desees */
+}
+
+h1{
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: monospace !important;;
+  text-shadow: #9c5858;
+}
+
+.img-inicio-2 {
+  width: 80%;
+  height: 40%;
+  /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: auto;
+  /* Centra la imagen */
+}
+
+.footer {
+  background-color: #111;
+  font-size: 10px;
+  /* Fondo oscuro */
+  color: #fff;
+  /* Texto blanco */
+  text-align: left;
+  /* Centrar contenido */
+  padding: 20px 10px;
+  /* Espaciado interno */
+  margin-top: 20px;
+  /* Espacio entre el contenido y el footer */
+}
+
+.footer-paragraph {
+  font-size: 20px;
+}
+
+
+
+.fa-behance{
+  color: #ffffff;
+  font-size: 2rem;
+  right: 20px;
+}
+
+.footer-content {
+  margin: 0;
+  font-size: 20px;
+  /* Elimina el margen del texto */
+  font-size: px;
+}
+
+.social-links {
+  list-style: none;
+  /* Elimina los puntos de la lista */
+  padding: 0;
+  /* Elimina el padding interno */
+  margin: 10px 0 0 0;
+  /* Espaciado superior */
+  display: flex;
+  /* Usa flexbox para alinear horizontalmente */
+  justify-content: center;
+  /* Centra los elementos */
+  gap: 15px;
+  /* Espacio entre los enlaces */
+}
+
+.social-links li a {
+  text-decoration: none;
+  /* Elimina el subrayado */
+  color: #1e90ff;
+  /* Cambia el color de los enlaces */
+  font-size: 14px;
+  transition: color 0.3s;
+  /* Transición para el efecto hover */
+}
+
+.social-links li a:hover {
+  color: #00bcd4;
+  /* Cambia el color al pasar el mouse */
+}
+
+
+.galeria{
+  display: flex;
+  justify-content: center;
+}
+
+.img-galeria {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  /* Bordes ligeramente redondeados */
+  margin: 10px;
+  /* pienso ordenar los albumes, poner sus titulos correspondientes y informacionpara que no se vea tan vacío*/
+}
+
+.formulario-contenedor {
+  background-color: #170d0d;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(213, 74, 74, 0.595);
+  width: 100%;
+  max-width: 500px;
+}
+
+.formulario-contenedor h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.formulario-contenedor label {
+  display: block;
+  margin-top: 10px;
+}
+
+.formulario-contenedor input,
+.formulario-contenedor textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #342b2b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario-contenedor button {
+  width: 100%;
+  padding: 10px;
+  background-color: #252525;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.formulario-contenedor button:hover {
+  background-color: #C72E2E;
+}
+
+.formulario-contenedor h2 {
+  color: #fff;
+}
+.formulario-contenedor h3 {
+  color: #fff;
+}
+
+.informacion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+.img-info{
+  width: 10%;
+  border-radius: 5px; /* Redondear el círculo */
+}
+
+#info-container {
+  display: flex;
+  gap: 20px;
+}
+.img-conciertos {
+  width: 34%;
+}
