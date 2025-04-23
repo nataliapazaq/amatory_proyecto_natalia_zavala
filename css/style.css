@@ -63,6 +63,11 @@ p {
   justify-content: center;
   gap: 15px;
 }
+@media (max-width: 380px) {
+  .social-links {
+    display: block !important;
+  }
+}
 .social-links li a {
   text-decoration: none;
   color: #1e90ff;
